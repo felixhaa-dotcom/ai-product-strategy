@@ -1,0 +1,14 @@
+# Public market evidence & build/buy challenge (V4)
+
+Public examples selected independently for this course exercise. These are not identified as current or prospective suppliers of any employer. Product pages are vendor claims, not tested capabilities, pricing, endorsement or evidence of a relationship.
+
+| Public benchmark / named attacker | Public evidence | Implication and unresolved question |
+|---|---|---|
+| Algorithm Energy — The Platform | [Official platform page](https://algorithmenergy.com/) markets automated categorization and quantification of loss events. | Direct substitute for basic loss categorization; test event granularity, contractual categories, evidence/override and export rights. Contextual moat challenged. |
+| Nabla Wind Hub — Data Analysis | [Official data analysis page](https://nablawindhub.com/en/data-analysis/) describes combining SCADA, alarms and O&M history, including shutdown classification. | Specialist alternative; test integration cost, human review, data portability and service model. Data advantage challenged. |
+| Microsoft Fabric — wind farm maintenance | [Public reference architecture](https://learn.microsoft.com/en-us/fabric/real-time-intelligence/architectures/wind-farm-maintenance) shows multi-source wind telemetry integration and analytics. | Horizontal platform enabling custom workflows; it is not evidence that Fabric has the target categorization feature. Platform exposure and build cost challenged. |
+
+Independent context: Leahy et al., *A Robust Prescriptive Framework and Performance Metric for Diagnosing and Predicting Wind Turbine Faults Based on SCADA and Alarms Data with Case Study* (2018), [doi:10.3390/en11071738](https://doi.org/10.3390/en11071738), demonstrates rule-based alarm processing on operational data. [Issues with Data Quality for Wind Turbine Condition Monitoring and Reliability Analyses](https://www.mdpi.com/1996-1073/12/2/201) discusses heterogeneous alarm codes, taxonomy and data quality. This supports technical plausibility and normalization need, not user demand or measured workload for this product. Reviewed 2026-11-26.
+
+### Decision experiment (proposed, unexecuted against vendors)
+Use the same independently adjudicated 100-event sample for native, specialist, rules-only, ML + knowledge and manual baseline; score mandatory gates (data rights, critical review, export, audit) pass/fail before economics. Record accurate automation, effort incl. review/rework, licensing, onboarding, exit, support and model cost. Weight quality 35%, full TCO 30%, workflow fit 20%, interoperability 15% only after mandatory gates. Obtain actual commercial quotes; no fictional vendor scores. Build only if the compliant custom option wins on risk-adjusted TCO and/or material unmet need, and knowledge reuse exceeds the prespecified incremental lift.

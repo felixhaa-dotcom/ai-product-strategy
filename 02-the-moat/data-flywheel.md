@@ -1,68 +1,33 @@
-# Data Flywheel Map
+# Data Flywheel Scorer, Module 2
 
-> Score each loop 1-5. Your weakest loop is where competitors attack first.
-> The four loops below are the M2 starting point - adapt if your product has 2 or 6 loops instead of 4.
+**Disclosure:** Competitor names are masked for confidentiality. Vendor A/B/C are illustrative competitor profiles; specific named-company evidence is not included in this external version.
 
 ## Flywheel Loops
+| Loop | Score today | What is captured today | How it compounds (target) | Target |
+|---|---:|---|---|---:|
+| Corrections | 1 | Not verified | Store approved corrections and reuse as knowledge and eval examples | 5 |
+| Preferences | 1 | Not verified | Govern team/contract-specific rules | 3 |
+| Domain Context | 1 | Not verified | Transfer validated OEM patterns across comparable assets | 5 |
+| Network | 1 | Not verified | Reuse authorized fleet-level insights | 4 |
 
-| Loop | What It Measures | Score 1 | Score 5 | Score |
-|------|------------------|---------|---------|-------|
-| **Correction** | Do users fix AI outputs? Is that signal captured and reused? | No capture | Automated retraining | __/5 |
-| **Preference** | Does the product learn individual / team preferences over time? | Stateless | Deep personalization | __/5 |
-| **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
-| **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
+**Total:** 4/20 (conservative unverified starting assumption); target 17/20.
+**Weakest loop:** All tied; prioritize Corrections.
+**Fix:** Capture evidence, original and corrected category, rationale, reviewer and version; reuse approved feedback and measure lift on a separate holdout.
 
-### Correction Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-### Preference Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-### Domain Context Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-### Network Loop - __/5
-**What you capture today:**
-**How it compounds:**
-
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
-
----
+## Competitive Positioning
+M1 starting hypothesis: own workflow depth 3/5 and data advantage 3/5. Target approximately 4.7/5 and 4.6/5 respectively; these are illustrative, not measurements.
 
 ## Encroachment Threat Assessment
+| Attacker | Vector | Time to threat (hypothesis) | Value at risk (scenario) |
+|---|---|---|---|
+| Vendor A | Platform encroachment | Now–6 months | 70–90% |
+| Vendor B | Vertical competitor | Now–12 months | 40–70% |
+| Vendor C | Adjacent expansion | Now–12 months | 50–80% |
 
-### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
-
-### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
-
-### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
-
----
+Ranges are stress assumptions, not verified market forecasts. Value means potential internal benefit of own development displaced, not revenue.
 
 ## 90-Day Encroachment Plan
-
-*Your partner played the Big Tech attacker. What was their plan to kill you?*
-
-**Attacker:**
-**Attack vector (target the weakest loop):**
-**Weeks 1-4 - what they ship:**
-**Weeks 5-8 - how they poach users:**
-**Weeks 9-12 - why users don't come back:**
-**Your defense:**
+- Weeks 1–4: Vendor A enhances classification and comments.
+- Weeks 5–8: Bundles capability into existing licenses.
+- Weeks 9–12: Captures feedback, increases native workflow switching costs.
+- Defense: Maintain authorized operational knowledge, contractual logic and feedback independently of provider; buy commodity functionality when better value.

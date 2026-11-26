@@ -1,19 +1,27 @@
-# Kill Switch Audit
+# Kill Switch Audit, Module 2
+
+## Current Setup
+- **Primary provider:** To be confirmed.
+- **Integration depth:** Not verified.
+- **Time to switch today:** Not tested.
 
 ## Vendor Dependency Assessment
+| Dimension | Current state | Risk | 48-hour action (target capability) |
+|---|---|---|---|
+| Provider | Unconfirmed | Unknown | Activate preapproved alternative |
+| Abstraction | Unverified | Potentially high | Change gateway configuration rather than application code |
+| Routing | Unverified | Potentially high | Redirect requests or fall back to manual workflow |
+| Eval | Unverified | Potentially high | Run release gates and representative tests before restoring automation |
 
-| Dimension | Current State | Risk Level | 48-Hour Action |
-|-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+**Portability Score:** Not assessed; 48-hour readiness not demonstrated.
 
-## Portability Score
-<!-- Ready / Partial / Locked -->
+## Stress Test
+- If pricing doubles: benchmark approved alternatives on quality and total cost before migrating.
+- If ToS restricts use case: suspend affected processing; use compliant fallback or manual process.
+- If provider ships competing product: compare build vs buy; preserve authorized data and business logic.
+- Risk level: potentially high until portability demonstrated.
 
-## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
-
-## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+## Three Actions
+- This week: inventory dependencies and contractual data rights.
+- This month: define provider-independent interface and benchmark dataset.
+- This quarter: test switching between two approved providers within 48 hours, subject to funding and security approval.

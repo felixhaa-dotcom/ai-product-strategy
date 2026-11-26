@@ -1,6 +1,6 @@
 # Three-Horizon Roadmap & Board Pitch
 
-**Version 4 update:** The original course-format working draft is preserved below for iteration history. The final V4 section and root [README](../README.md) supersede earlier status, cost sensitivities and assessment where they differ.
+**Version 4 update:** The Roadmap section contains the current Roadmap Builder output. Earlier course-format drafts and V3 assessment are retained for iteration history. The final V4 section and root [README](../README.md) supersede earlier status, cost sensitivities and assessment where they differ.
 
 
 **Confidentiality and evidence:** Employer, actual suppliers, locations and internal names are withheld. All financial, portfolio and staffing figures are synthetic scenario assumptions. All proposed controls, metrics, competitor profiles and architecture are unverified unless explicitly stated. No operational data is included.
@@ -21,39 +21,71 @@
 **Weakest claim revised:** Rather than committing to a proprietary AI product, fund a bounded validation of the best way to automate the workflow; buy native functionality if it meets requirements at lower risk-adjusted TCO. Never present capacity release as realized cash savings.
 
 ## Roadmap
-Proposed backlog derived from M1–M5, not a Jira export. Start relative to funding approval. Review monthly.
 
-### Horizon 1 — Now (0–4 weeks)
-| Initiative | Component | Deliverable |
-|---|---|---|
-| Baseline and pilot cohort | Bet | Measured effort and event mix for 8–10 representative wind parks (proposed), at least two OEMs if feasible |
-| Native feature and build/buy comparison | Moat | Feature fit and total cost comparison |
-| Read-only workflow demo and API feasibility | Bet | Synthetic demo and approved test access |
-| Define unit cost, full cost and realization | Margin | Finance-reviewed cost model |
-| Curate initial gold cases and release gates | Contract | Expert-approved starter set, expansion plan |
-| Data rights, owner, escalation and security approval | Guardrails | Documented scope and gate |
+**Version 4 — Roadmap Builder output:** This is the current 16-initiative roadmap. All initiatives are proposed; the anonymized backlog is not a company Jira export. Start relative to funding approval. Review monthly. No new operational validation results are claimed. Earlier V3 tables below are retained for iteration history, not as the active roadmap.
 
-**Week-4 gate:** Stop or buy instead if native functionality meets quality, governance and lower risk-adjusted TCO; stop if data access, pilot staffing or approval cannot be secured. Release H2 only with credible economics and feasible design.
+### Horizon 1 – Ship (0–4 weeks)
 
-### Horizon 2 — Next (1–3 months)
-| Initiative | Component | Hypothesis | Kill criteria (week 12 unless noted) |
+*Objective: Establish the evidence required for an informed investment decision.*
+
+| Initiative | Strategy Component | Why it ships now | Confidence |
 |---|---|---|---|
-| Shadow-mode event classification and comments | Bet | >=70% correct automation of all in-scope events and >=50% effort reduction | Stop/pivot if either threshold missed |
-| Golden dataset, confidence calibration and HITL | Contract | >=95% accuracy on auto-eligible cases; no unresolved critical defects | No automated write-back if below target or any unresolved critical defect |
-| Model routing and fallback | Margin | Full delivery cost supports payback <=12 months at Finance-approved realization assumptions | Stop scaling if economics fail |
-| Correction capture and knowledge reuse | Moat | Feedback measurably improves held-out quality or correct coverage | Stop expansion of learning mechanism if no improvement in prespecified comparison |
-| Provider swap and controls | Guardrails | Approved fallback or manual process; demonstrate switch <=48h before scale | Block scale if fallback/control readiness unproven |
+| 01 – Validate user needs and workload | Bet | Establish the operational baseline through 6–10 TAM interviews, two leads and 8–10 representative parks. | H |
+| 02 – Compare native and specialist alternatives | Moat | Identify existing alternatives before committing to proprietary development. | H |
+| 03 – Read-only data integration feasibility | Bet | Confirm authorized data access, event normalization and adapter feasibility. | H |
+| 04 – Validate ramp-aware business case | Margin | Establish full costs, economic realization and comparative investment returns. | H |
+| 05 – Define independent evaluation and release gates | Contract | Establish expert-labeled test data, quality metrics and mandatory acceptance criteria. | H |
+| 06 – Confirm governance owners and data rights | Guardrails | Establish accountability, permissions, security requirements and validate shadow AI hypotheses. | H |
 
-### Horizon 3 — Bet (3–6 months)
-| Initiative | Component | Experiment / prerequisite |
+**Week 4 decision gate:** Proceed only if a material unmet user need, authorized data access, technical feasibility, sufficient resources and credible economics can be established. Select the most economically viable compliant approach. Stop if feasibility cannot be established; buy rather than build if a compliant native alternative wins.
+
+The proposed discovery investment is capped at 10 person-days. High confidence refers to the importance of these discovery deliverables, not certainty of favorable results or guaranteed completion within that capacity.
+
+### Horizon 2 – Validate (1–3 months)
+
+*Objective: Prove technical reliability, incremental differentiation and economic viability through a controlled pilot.*
+
+| Initiative | Strategy Component | Hypothesis | Kill Criteria | Confidence |
+|---|---|---|---|---|
+| 07 – Benchmark and shadow-mode pilot | Bet | The selected automation approach materially reduces repetitive operational work. | By week 12, stop or pivot if correct automation of all in-scope events is below 70% or end-to-end effort reduction is below 50%. | M |
+| 08 – Reliability and human review evaluation | Contract | Risk-based automation can deliver reliable classifications without compromising critical decisions. | By week 12, block automated write-back if auto-applied accuracy is below 95%, critical violations remain unresolved or mandatory release controls fail. | M |
+| 09 – Test incremental knowledge and correction reuse | Moat | Reusable operational knowledge creates measurable value over the best feasible alternative. | By week 12, stop custom learning if neither a 5 pp increase in correct automation coverage at target accuracy nor a 10% reduction in review effort at non-inferior quality is achieved. | M |
+| 10 – Optimize full cost and adoption economics | Margin | The selected solution generates sufficient economic value after accounting for implementation, operating costs and adoption ramp-up. | By week 12, stop scaling if Finance-reviewed, ramp-adjusted payback exceeds 12 months. | M |
+| 11 – Verify portability, security and fallback | Guardrails | The selected solution can operate without unacceptable vendor dependency or operational risk. | By week 12, block scaling if the required 48-hour provider replacement, operational fallback, critical controls or approvals cannot be demonstrated. | M |
+
+**Week 12 decision gate:** Scale, simplify, buy, pivot or stop based on measured pilot results. No production rollout is approved by default.
+
+### Horizon 3 – Explore (3–6 months)
+
+*Objective: Explore additional value from the proven workflow and reusable operational knowledge.*
+
+| Initiative | Strategy Component | What must be true first | Confidence |
+|---|---|---|---|
+| 12 – Expand across additional OEMs and sources | Moat | H2 gates are passed and knowledge can be reused across authorized sources without compromising quality. | L |
+| 13 – Explore OEM report reconciliation | Moat | The knowledge layer is validated; a separate experiment targets at least 20% reconciliation effort reduction at non-inferior quality. Separate business case; avoid double counting. | L |
+| 14 – Conditional phased rollout | Margin | All technical, economic, adoption and governance gates are passed. Rollout investment requires separate approval. | L |
+| 15 – Explore operational analytics | Moat | A specific unmet analytical need and measurable incremental value are identified. Remove from active funding scope until then. | L |
+| 16 – Explore external demand and pricing | Margin | Internal value is demonstrated, willingness to pay is validated, review responsibilities are established and full contribution margin reaches at least 40%. | L |
+
+H3 is an exploration and conditional rollout-planning horizon, not a commitment to implement all five initiatives.
+
+### Unmapped (cut or rethink)
+
+| Initiative | Why it's unmapped | Recommendation |
 |---|---|---|
-| Transfer to other OEMs/countries | Moat | Only after H2 gate; test local taxonomies and data rights |
-| Reuse validated events in OEM reconciliation | Guardrails | Test incremental value separately; avoid double counting |
-| Scale to a representative 100-park scenario | Margin | Conditional phased rollout after quality, adoption and Finance approval |
-| External commercialization | Margin | Small discovery study only if internal fit proven |
+| None | All 16 initiatives have a defensible link to a strategy component. | Defer vague operational analytics until a specific outcome and hypothesis exist. |
 
-### Unmapped / Deferred
-Generic AI chatbot, general presentation/email tools, autonomous turbine control and autonomous trading are outside this product scope. No actual user-mapped backlog supplied; mapping disagreements not assessable.
+### Mapping Disagreements
+
+No explicit user-locked mappings were supplied. The following change is recommended relative to the imported CSV component labels:
+
+| Initiative | Imported component | Recommended component | Why |
+|---|---|---|---|
+| 13 – Explore OEM report reconciliation | Guardrails | Moat | Its primary purpose is to validate cross-workflow knowledge reuse as a source of differentiation, while governance remains a prerequisite. |
+
+The automatic unmapped classification of initiative 12 is corrected to Moat. Other mappings follow the imported component labels rather than the tool's automatic keyword guesses.
+
+**Roadmap critique:** H1 has the most initiatives (6 of 16), intentionally emphasizing discovery; H2 still needs independently validated evidence and H3 needs separate use-case business cases. Protect OEM report reconciliation as the H3 experiment that most directly tests cross-workflow knowledge reuse. Cut generic operational analytics from the active backlog today and reconsider only once a specific unmet need and measurable outcome are identified.
 
 ## Board Pitch
 **Thesis (1 sentence):**

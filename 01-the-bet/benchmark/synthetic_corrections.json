@@ -1,0 +1,72 @@
+[
+  {
+    "oem": "OEM-X",
+    "code": "N0",
+    "label": "technical_failure",
+    "approval": "synthetic-approved",
+    "id": "DEV-0-0"
+  },
+  {
+    "oem": "OEM-X",
+    "code": "N1",
+    "label": "planned_maintenance",
+    "approval": "synthetic-approved",
+    "id": "DEV-0-1"
+  },
+  {
+    "oem": "OEM-X",
+    "code": "N2",
+    "label": "grid_curtailment",
+    "approval": "synthetic-approved",
+    "id": "DEV-0-2"
+  },
+  {
+    "oem": "OEM-X",
+    "code": "N3",
+    "label": "high_wind",
+    "approval": "synthetic-approved",
+    "id": "DEV-0-3"
+  },
+  {
+    "oem": "OEM-X",
+    "code": "N4",
+    "label": "low_wind",
+    "approval": "synthetic-approved",
+    "id": "DEV-0-4"
+  },
+  {
+    "oem": "OEM-Y",
+    "code": "N1",
+    "label": "technical_failure",
+    "approval": "synthetic-approved",
+    "id": "DEV-1-0"
+  },
+  {
+    "oem": "OEM-Y",
+    "code": "N2",
+    "label": "planned_maintenance",
+    "approval": "synthetic-approved",
+    "id": "DEV-1-1"
+  },
+  {
+    "oem": "OEM-Y",
+    "code": "N3",
+    "label": "grid_curtailment",
+    "approval": "synthetic-approved",
+    "id": "DEV-1-2"
+  },
+  {
+    "oem": "OEM-Y",
+    "code": "N4",
+    "label": "high_wind",
+    "approval": "synthetic-approved",
+    "id": "DEV-1-3"
+  },
+  {
+    "oem": "OEM-Y",
+    "code": "N0",
+    "label": "low_wind",
+    "approval": "synthetic-approved",
+    "id": "DEV-1-4"
+  }
+]

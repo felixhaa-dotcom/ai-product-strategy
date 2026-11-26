@@ -1,6 +1,6 @@
 # Three-Horizon Roadmap & Board Pitch
 
-**Version 4 update:** The Roadmap section contains the current Roadmap Builder output. Earlier course-format drafts and V3 assessment are retained for iteration history. The final V4 section and root [README](../README.md) supersede earlier status, cost sensitivities and assessment where they differ.
+**Final V4 course submission:** The Roadmap and Board Pitch sections contain the current Roadmap Builder output and leadership-facing Pitch Builder result. Earlier V3 material is retained as iteration history only. The V4 evaluation and root [README](../README.md) supersede earlier assumptions and assessments.
 
 
 **Confidentiality and evidence:** Employer, actual suppliers, locations and internal names are withheld. All financial, portfolio and staffing figures are synthetic scenario assumptions. All proposed controls, metrics, competitor profiles and architecture are unverified unless explicitly stated. No operational data is included.
@@ -9,16 +9,24 @@
 **Disclosure:** All portfolio, workload, cost, budget and staffing figures are synthetic illustrations, not actual company data or approved commitments.
 
 ## AI Evaluation
-| Dimension | Assessment | Required evidence |
-|---|---|---|
-| Bet Validation | Plausible; synthetic planning estimates, not measured pilot | Time-and-motion baseline, representative pilot |
-| Defensibility | Weak platform exposure (2/5) | Native feature fit/TCO, verified feedback reuse |
-| Pricing Alignment | Internal value case preferable; external pricing hypothetical | Actual costs, marginal cost/realization, demand |
-| Trust & Reliability | Defined targets, no execution evidence | Expert labels, holdout and shadow-mode results |
-| Impact & Scale | Compounding not yet proven | Multi-OEM cohort, authorized reuse, unit-cost trends |
-| Capability Gaps | Provider, APIs, owner and capacity unconfirmed | Technical scoping, approved providers, work allocation |
 
-**Weakest claim revised:** Rather than committing to a proprietary AI product, fund a bounded validation of the best way to automate the workflow; buy native functionality if it meets requirements at lower risk-adjusted TCO. Never present capacity release as realized cash savings.
+Provisional assistant assessment of strategic design using the eight course lenses; not an official grade or an independent validation of business results. Evidence-weighted assessment: 3.63/5 (29/40).
+
+| Dimension | V4 design score | Current evidence and remaining gap |
+|---|---:|---|
+| Bet Validation | 4/5 | Defined falsifiable gates and public alternatives; interviews and actual workflow baseline pending. |
+| Capability Assessment | 4/5 | Executed offline ML benchmark, 330 synthetic cases and 1,650 method/case predictions; live integration and capacity unverified. |
+| Impact Analysis | 4/5 | Ramp-aware synthetic economics fail the 12-month gate; Finance-approved actual case pending. |
+| Defensibility Check | 4/5 | Synthetic knowledge reuse improves coverage; real native comparison and defensibility not proven. |
+| Pricing Alignment | 4/5 | Variable costs, review responsibilities and stress scenarios modeled; full cost and willingness to pay unknown. |
+| Trust & Reliability | 4/5 | 80/80 explicit review fixtures routed; 60.61% correct coverage misses 70% gate. Independent operational holdout pending. |
+| Governance & Scale | 4/5 | Defined proposed controls and roles; appointments, rights, security and scale tests pending. |
+| Gap Identification | 5/5 | Unfavorable benchmark and economic outcomes disclosed; explicit buy, simplify, pivot or stop decisions. |
+| **Total** | **33/40 (4.125/5)** | **Strategy design assessment, not production readiness.** |
+
+**Weakest claim revised:** Fund a bounded validation of the best way to automate the workflow rather than committing to proprietary development. Buy native functionality if it meets requirements at lower risk-adjusted TCO. Never present capacity release as realized cash savings.
+
+[Detailed V4 evaluation and evidence register](evaluation-v4.md).
 
 ## Roadmap
 
@@ -88,28 +96,36 @@ The automatic unmapped classification of initiative 12 is corrected to Moat. Oth
 **Roadmap critique:** H1 has the most initiatives (6 of 16), intentionally emphasizing discovery; H2 still needs independently validated evidence and H3 needs separate use-case business cases. Protect OEM report reconciliation as the H3 experiment that most directly tests cross-workflow knowledge reuse. Cut generic operational analytics from the active backlog today and reconsider only once a specific unmet need and measurable outcome are identified.
 
 ## Board Pitch
+
+**Audience:** CEO + Leadership Team / internal investment review. The course tool selected Founders / Funding Committee; the final pitch is deliberately adapted to internal resource allocation and operational efficiency.
+
 **Thesis (1 sentence):**
-Grow operational capacity through a reusable, governed knowledge workflow, starting with a bounded status categorization pilot; invest in shared intelligence only where it beats the best native or rules-based alternative.
+
+We can grow our wind portfolio without growing repetitive operational work at the same rate by automating turbine event classification and choosing the simplest solution that delivers measurable economic value.
 
 **The case:**
-**Why now:** The process is repetitive, a candidate for operational process improvement, and can be evaluated against existing manual work and operational data.
-**What's defensible:** Approved operational knowledge, contractual rules, validated corrections and cross-platform workflows; not the model itself. Native functionality may be the right solution if better TCO.
-**The economics:** Synthetic scenario (not company data): 100 illustrative wind parks, 2.0h to 0.5h per park/month; 1,800 hours/year capacity potential, €180,000 gross equivalent at €100/h. At 25% realization and illustrative €10,000/year OPEX, €35,000 annual net economic benefit. €32,000 proposed cap implies ~11.0 months simple steady-state payback. Not a cash-savings commitment; excludes ramp-up, discounting and unverified costs.
+
+1. Why now: Automated event classification is already available in the market, so we can benchmark existing options before committing to development. Our offline prototype makes the knowledge-reuse hypothesis testable at low cost. A specific market timing advantage emerging in the last 6–12 months has not been established.
+2. What's defensible: The potential advantage is authorized, reusable operational knowledge: event mappings, OEM information, contractual logic and validated expert corrections (M2). In 330 synthetic test events, knowledge-enhanced ML with simulated corrections achieved 60.61% correct automation coverage versus 30.30% for generic ML and 45.45% for knowledge-enabled rules. This is a reason to investigate, not proof of a sustainable moat. Access to expertise and data is conditional on approvals and staffing.
+3. The economics: €180,000 annual gross economic potential in an illustrative 100-park portfolio, equivalent to 1,800 hours of released capacity. At 25% economic realization and €10,000 annual OPEX, modeled net economic value is €35,000 per year at steady state. Ramp-adjusted payback of approximately 15.8 months misses our 12-month gate. In the separate hypothetical commercial scenario, base gross margin is 67.1%, 45.8% with tripled inference cost and −44.0% if the vendor supplies human review. Full costs and demand are unverified. Internal efficiency comes first (M3); no measured cash savings or actual pricing are asserted.
 
 **The risks:**
-**Trust:** Shadow mode first; >=95% auto accuracy, >=70% correctly automated outcomes, mandatory human review for critical cases, protected evaluation dataset and traceability.
-**Scale:** Data rights, ownership, model portability, authorized feedback loop and operations readiness are release gates.
-**Competitive:** Compare Vendor A/other native offerings before custom build; preserve knowledge and avoid duplicated investment.
+
+1. Trust / failure modes: Incorrect classification could distort availability reporting, contractual assessments and customer communications. Require ≥95% auto-applied accuracy, ≥70% correct automation of all in-scope events, <1% unsupported assertions and zero tolerated critical incidents. All 80 explicit mandatory-review fixtures routed in the synthetic test; overall correct coverage was only 60.61%. Critical cases require human review. Block production write-back until independent validation and approval (M4).
+2. Scale / governance: At tenfold usage, queue capacity, integration, cost and knowledge governance may become bottlenecks. Modeled fixed-price margin is −148.9%; hybrid pricing 68.9%, subject to cost and performance assumptions. Require approved data access, versioned knowledge, tenant isolation, assigned owners, escalation, fallback and portability. No autonomous turbine control or contractual or financial decisions (M5).
+3. Competitive: Buy rather than build if a compliant native or rules-based alternative meets requirements at lower risk-adjusted total cost. At week 4, stop if access, feasible scope or credible economics cannot be established. At week 12, stop/pivot if accuracy <95%, correct automation <70%, end-to-end effort reduction <50%, critical risks remain, or Finance-reviewed ramp-adjusted payback exceeds 12 months. Stop custom learning unless it delivers ≥5 percentage points additional correct coverage at target accuracy or ≥10% lower review effort at non-inferior quality against the best feasible comparator.
 
 **The ask:**
-Audience: Renewable asset management leadership / internal funding review. Proposed 12-week validation with 40 person-days across existing teams (22 engineering, 8 TAM, 6 product, 4 security/QA; proposed not committed). Cap €32,000 at €100/hour and 8-hour day, subject to scoping. Release only 10 days (€8,000) for H1; conditional 30 days (€24,000) for H2 after week-4 gate. No production rollout or incremental hiring authorized by this ask. Incremental vendor/OPEX funding must be explicitly scoped before H2; stop or revise if total economics do not support the gate.
 
-**Week-12 decision:** Scale only if success gates, governance approval and Finance-validated <=12-month payback are met; otherwise buy, narrow, pivot or stop.
+Approve €8,000 of discovery effort (10 person-days) over four weeks. Reserve, but do not release, €24,000 of conditional pilot effort (30 person-days) for weeks 5–12. Total proposed cap: €32,000 and 40 person-days from existing teams (22 Engineering, 8 TAM, 6 Product, 4 Security/QA). No incremental hiring or production rollout. These are synthetic planning values, not approved commitments; external costs and resources must be explicitly scoped before H2.
+
+At week 4, leadership receives the problem baseline, technical feasibility, native/rules/hybrid comparison and revised economics; at week 12, an evidence-based scale, buy, simplify, pivot or stop decision. Defer generic operational analytics, broad platform development and commercial expansion until the first workflow has earned further investment. Agree actual resource trade-offs with team leads before funding.
 
 ### Coaching Notes
-Opening: Our asset managers should spend less time categorizing routine events and more time improving asset performance.
-60-second version: A limited pilot tests a real efficiency opportunity on 8–10 parks. We estimate up to 1,800 hours of annual capacity release in the illustrative portfolio under synthetic scenario assumptions, not booked savings. Approve €8,000 of initial effort, with further funding conditional on feasibility, alternatives and economics; quality and savings gates control rollout.
-Hardest question: Why build if Vendor A already offers this? Answer: We don't commit to build. Compare native functionality first and choose the lowest risk-adjusted cost route that retains needed control and meets quality requirements.
+
+- **Opening line:** We want to grow our wind portfolio without growing repetitive operational work at the same rate, and I am asking for €8,000 to determine the most economically viable way to achieve that.
+- **If you only get 60 seconds:** Our illustrative case identifies €180,000 in annual gross economic potential, and a synthetic experiment suggests reusable operational knowledge may improve classification coverage. Neither our 70% coverage gate nor our 12-month ramp-adjusted payback gate is currently met, so we should compare alternatives before committing to custom development. Approve €8,000 and ten person-days for four weeks of discovery, with a further €24,000 conditional on the evidence.
+- **The one question they'll ask first:** Why build if existing platforms already offer automated event classification? **Answer:** We should not build unless a controlled comparison demonstrates sufficient incremental value at acceptable risk and lower risk-adjusted total cost.
 
 ## M1 Baseline vs. Now
 **M1 baseline:** Build an AI status categorization tool for repetitive asset management work.

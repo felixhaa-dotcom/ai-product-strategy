@@ -1,62 +1,86 @@
-# AI Product Strategy — Wind Turbine Status Categorization
+# AI-Powered Wind Asset Operations Intelligence — V4
 
-**Anonymization note:** This course case is based on a real type of operational workflow. Employer, internal initiative names, locations, platform names and supplier relationships are intentionally undisclosed. Portfolio sizes, workload estimates, internal rates, costs, budget and staffing allocations are synthetic teaching assumptions, not company data. No actual operational records, customer data or verified pilot results are included. Vendor A/B/C are anonymized competitive archetypes, not confirmed suppliers or verified competitor assessments.
+> Automate repeatable wind asset operations through a governed, reusable knowledge workflow. Prove status categorization first; use native capabilities when they meet requirements more economically.
 
-**Status:** Strategy draft assembled from course work; not an approved business case or deployed product. Use only synthetic data and an approved private repository. No hosted prototype URL, actual backlog, verified provider setup or pilot results supplied.
+**Confidentiality and evidence:** Employer, actual suppliers, locations and internal names are withheld. All financial, portfolio and staffing figures are synthetic scenario assumptions. Public market examples are independently selected and imply no supplier relationships. Executed test results are from synthetic local ML only; all financial, production and demand assumptions remain unvalidated. No operational data is included.
 
 ## Strategy at a Glance
-| Component | Summary |
-|---|---|
-| The Bet | Reduce repetitive wind turbine event categorization and commenting; Automator |
-| The Moat | 8/15 provisional vulnerability; 4/20 assumed current flywheel, 17/20 target |
-| The Margin | Internal capacity release is primary; €180,000 annual gross equivalent under synthetic scenario assumptions; commercial 67.1% illustrative only |
-| The Contract | >=95% auto accuracy; >=70% correctly automated events; critical decisions human-reviewed |
-| The Guardrails | Controlled autonomy, validated feedback, provider independence and security gates; 15/25 provisional maturity |
-| The Pitch | Proposed 12-week staged validation; initial 10 PD/€8,000, total 40 PD/€32,000 conditional cap |
+| Component | Module | Status | Key Artifact |
+|---|---|---|---|
+| The Bet | M1 | [x] Draft | [01-the-bet](01-the-bet/) |
+| The Moat | M2 | [x] Draft | [02-the-moat](02-the-moat/) |
+| The Margin | M3 | [x] Draft | [03-the-margin](03-the-margin/) |
+| The Contract | M4 | [x] Draft | [04-the-contract](04-the-contract/) |
+| The Guardrails | M5 | [x] Draft | [05-the-guardrails](05-the-guardrails/) |
+| The Pitch | M6 | [x] Draft | [06-the-pitch](06-the-pitch/) |
+
+All six components are documented; none has been validated in production. V3 supersedes the feature-only framing.
 
 ## The Bet (M1)
-- **Product:** AI-powered Wind Turbine Status Categorization.
-- **User:** Technical Asset Managers.
-- **Hypothesis:** Automate routine classifications and comments while improving scalability and preserving control.
-- **Kill criteria:** Stop at week 4 if data access infeasible or native option is better; stop/pivot at week 12 if <95% automatic accuracy, <70% successful automation, <50% manual effort reduction, or unresolved critical risk.
-- [Diagnostic](01-the-bet/diagnostic.md) · [Prototype specification](01-the-bet/prototype.md) ([offline scripted demo](01-the-bet/prototype-demo.html); hosted URL pending).
+- **Product:** AI-Powered Wind Asset Operations Intelligence. First use case: wind turbine event status categorization and comments for TAM; choose the simplest compliant route, not a predetermined custom AI platform.
+- **AI Value Archetype:** Automator, with Copilot support for exceptions. No autonomous agents in v1.
+- **Vulnerability Scores:** Contextual Moat 3/5 · Data Advantage 3/5 · Platform Exposure 2/5; composite 8/15 (provisional; 5 = strongest). Design target 11/15 conditional on evidence.
+- **Top Risk:** Native or knowledge-enabled rules may solve the problem at lower risk-adjusted TCO; custom development currently misses synthetic coverage and illustrative ramp-aware payback gates.
+- **Confidence:** M — subjective; interviews, benchmark, data rights, API feasibility and pilot pending.
+- **Prototype:** [Functional offline ML classifier](01-the-bet/prototype-demo.html), trained local TF-IDF/naive Bayes, two mock source formats, fictional knowledge and simulated corrections. [Executed 330-case benchmark](01-the-bet/benchmark/README.md), 1,650 method/case predictions. No live LLM or API, no production or hosted URL. Headless UI smoke test passed; JS/Python 1,650 prediction/route comparisons matched.
+- **Kill Criteria:** Week 4: stop if approved data access, feasible scope or credible economics cannot be established; buy if native meets requirements at lower risk-adjusted TCO. Week 12: stop/pivot if accuracy on automatically applied cases <95%, correct automation <70% of all in-scope events or end-to-end effort reduction <50%. No rollout with unresolved critical risks. Stop custom learning if no measured incremental lift.
+- **Discovery:** Proposed 6–10 TAM interviews, two leads, 8–10 representative parks, 100 authorized historical events if feasible, five usability walkthroughs. No results claimed.
+
+[Diagnostic](01-the-bet/diagnostic.md) · [Prototype bet](01-the-bet/prototype.md)
 
 ## The Moat (M2)
-- **Defensibility:** Workflow, authorized operational data, contractual logic and validated corrections; not the AI model.
-- **Primary attacker:** Vendor A; validate native capability and cost before build.
-- **Flywheel:** Capture corrections and demonstrate measurable lift on separate holdout.
-- **Vendor portability:** Provider unconfirmed; target validated 48-hour switch or controlled manual fallback.
-- [Data flywheel](02-the-moat/data-flywheel.md) · [Kill switch](02-the-moat/kill-switch.md).
+- **Data Flywheel Score:** 4/20 conservative unverified baseline; 17/20 target (Corrections 5, Preferences 3, Domain Context 5, Network 4).
+- **Weakest Loop:** All four provisionally 1/5; prioritize expert corrections with independent holdout testing.
+- **Top Encroachment Threat:** Public benchmark: Algorithm Energy markets automated loss categorization; Nabla Wind Hub markets shutdown classification; Microsoft Fabric offers multi-source wind integration architecture. [Public sources and fit/TCO test](02-the-moat/public-market-evidence.md). No supplier relationship or actual fit claimed.
+- **Encroachment Defense:** Preserve authorized, versioned event mappings, evidence references, OEM context, contractual rules and validated corrections in a reusable knowledge layer. Compare native, specialist, rules-only and hybrid approaches using the same event benchmark.
+- **Vendor Portability:** Not assessed. Target approved provider switch within 48 hours; manual fallback from the outset. Exportable schema and versioned model gateway proposed.
+- **Proof of moat:** Synthetic experiment: D correct coverage 60.61% vs B ML only 30.30%, C ML+initial knowledge 45.45%, E rules+same knowledge 45.45%. No independent operational moat or cross-workflow evidence. Actual target +5pp coverage at target accuracy OR 10% less review effort at non-inferior quality vs best feasible comparator; simplify if absent.
+
+[Data flywheel](02-the-moat/data-flywheel.md) · [Kill switch](02-the-moat/kill-switch.md)
 
 ## The Margin (M3)
-- **Internal economics:** Synthetic scenario: 100 illustrative wind parks, baseline 1–3h/park/month, midpoint 2.0h; modeled residual effort 0.5h. 1,800h annual capacity release, gross equivalent €180,000 at €100/h. Validate before relying on figures.
-- **Illustrative investment:** €32,000 effort cap and €10,000 annual incremental OPEX. At 25% economic realization, €35,000 net annual benefit; ~11.0-month steady-state payback (not rollout-adjusted). Cash savings not established.
-- **Commercial option:** Hybrid pricing hypothesis €5/turbine/month + €0.25 per successfully automated classification. Separate turbine model, not actual revenue, no park-to-turbine conversion assumed.
-- **Cost discipline:** Rules first, quality-gated model cascading, human review costs and actual TCO tracked.
-- [Cost curve](03-the-margin/cost-curve.md).
+- **Gross Margin (current):** N/A — internal manual process without standalone product revenue.
+- **Gross Margin (AI-adjusted):** 67.1% hypothetical buyer-operated-review base; 45.8% with 3× inference, 43.1% with 2× fixed usage; 10× fixed −148.9%, 10× hybrid 68.9%, 10× hybrid with 3× inference 42.2%. Vendor-supplied review scenario −44.0%. All synthetic and full costs unknown.
+- **Pricing Model:** Internal efficiency first; external hybrid pricing is a separate hypothetical option, not current revenue.
+- **Pricing Today → Tomorrow:** No standalone tariff → illustrative €5/turbine/month + €0.25 per successfully automated classification; 70 outcomes = €22.50/month. No approved tariff or willingness-to-pay evidence.
+- **Total AI COGS / unit:** €2.40 monthly inference per turbine; €2 fixed + €3 variable other COGS (illustrative buyer-operated review). €7.40 base total modeled COGS. Vendor review may add €25 at 30 cases × 0.5 min × €100/h.
+- **Cascading Strategy:** Deterministic rules first; illustrative 80% small/20% frontier routing; human review for critical cases.
+- **Net Margin Shift:** N/A — no standalone baseline. Illustrative internal scenario: 100 parks, 2.0 to 0.5 h/park/month, 75% effort reduction, 1,800 hours/year capacity release, €180,000 gross economic equivalent at €100/h. Not cash savings.
+- **Break-even at:** 11.0 months steady-state, ~15.8 months with illustrative adoption ramp (25%/50%/100% over months 1–3/4–6/7–12), €32k investment, €10k annual OPEX, 25% realization. Year-one net €20,937.50 before initial investment; €11,062.50 unrecovered. Need ≥33.94% realization for 12-month gate under ramp. Not achieved; full Finance-reviewed actual model required.
+- **Investment logic:** Compare compliant native, rules and hybrid using common quality and full ramp-aware cost; illustrative native scenario wins year-one economics, not a verified ranking. [Activity-based model](03-the-margin/v4-economics.md). Commercial option only with validated demand and ≥40% full contribution margin.
+
+[Cost curve](03-the-margin/cost-curve.md)
 
 ## The Contract (M4)
-- **Reliability:** >=95% accuracy on auto-applied cases; hallucination <1% target and zero tolerance for confirmed critical incidents; p95 <=10 seconds; drift <=0.5 pp/week.
-- **Golden dataset:** 10 synthetic draft cases; target ~150 curated examples plus protected holdout and sufficient production sampling. No executed eval evidence supplied.
-- **Human control:** Confidence >=95% plus mandatory checks for routine cases only; critical cases always human approved. Evidence, override and audit logs.
-- [Golden dataset and reliability contract](04-the-contract/golden-dataset.md).
+- **Reliability Target:** >=95% auto-applied accuracy; >=70% correct automation of all in-scope events; <1% unsupported assertion rate, zero tolerated critical incidents; p95 <=10 seconds; drift <=0.5pp/week; proposed 99.5% availability during agreed service hours. All unmeasured.
+- **Golden Dataset:** 20 synthetic qualitative specifications (14 edge, 5 adversarial) remain draft; separate executed benchmark of 330 synthetic held-out instances (250 routine, 80 mandatory review), 165 development cases, 40 training phrases and 10 simulated corrections. Shared generator, no independent expert validation.
+- **Confidence UX:** Tiered calibrated confidence with evidence; auto-apply only routine cases >=95% and all controls; uncertain or critical cases go to review; withhold unsupported decisions.
+- **HITL Architecture:** TAM reviewer, specialist for critical/ambiguous decisions, product/engineering/security for systemic incidents. Capture authorized corrections, evidence and versions. No unapproved learning.
+- **Failure Mode Coverage:** 80/80 mandatory-review fixtures routed across all methods; explicit metadata/literal checks, not real security tests. Best correct coverage 200/330 = 60.61%, below 70% gate; synthetic auto accuracy 100% not production proof. Independently labeled holdout, statistical acceptance and calibrated confidence required.
+
+[Golden dataset and reliability contract](04-the-contract/golden-dataset.md)
 
 ## The Guardrails (M5)
-- **Governance:** Approved data access, no autonomous OT control or financial commitments; formal risk and data-rights assessment before release.
-- **Compounding:** Recursive learning, cross-domain transfer, authorized fleet intelligence; all unverified today.
-- **Shadow AI:** 10 discovery hypotheses, none verified, adjacent spend unknown; build differentiated capabilities and integrate commodities.
-- [Compounding system and governance](05-the-guardrails/compounding-system.md).
+- **Compounding System:** Recurring synthetic code reuse demonstrated in controlled local experiment; real expert feedback, cross-workflow transfer and fleet insights unverified. Cross-workflow target ≥20% reconciliation effort reduction at non-inferior quality with separate business case.
+- **Governance Posture:** Proposed accountable product, TAM, engineering/QA, data, security, operations and Finance roles. Versioned knowledge, provenance, tenant isolation, rights/retention, review and release records. Maturity 15/25 provisional; 24/25 target.
+- **Autonomy Boundaries:** Authorized read/draft; validated low-risk write-back only after gates; critical classifications and customer communication require human approval. No autonomous SCADA/OT control, financial or contractual commitments.
+- **Escalation Triggers:** Low confidence, evidence gaps, failed policy, critical event, security incident, reliability breach or queue overload.
+- **Audit Cadence:** Continuous monitoring; daily queue review; weekly evaluations; monthly quality/cost; quarterly governance/vendor review. Proposed roles not appointed.
+- **Shadow AI Audit (user-side):** 10 hypotheses, 0 verified; 5 proposed build, 3 partner, 2 ignore; adjacent spend unknown. Proposed interviews and evidence review in H1.
+- **Agent Boundaries:** No autonomous agents in first release. Adapter, canonical schema, rule/retrieval layer, controlled model gateway, validators, review queue, approved write-back.
+- **Regulatory Exposure:** Qualified owners to assess intended-purpose AI Act classification, applicable GDPR, critical-infrastructure obligations, ISMS and contractual data rights before production. No definitive legal conclusion.
+
+[Compounding system and governance](05-the-guardrails/compounding-system.md)
 
 ## The Pitch (M6)
-- **Audience:** Renewable asset management leadership.
-- **H1 (0–4 weeks):** Measure baseline; compare native vs build; prove feasibility; curate evals; scope governance and costs.
-- **H2 (1–3 months):** Run shadow-mode pilot, validate economics, reliability and feedback; no write-back without approval.
-- **H3 (3–6 months):** Conditional phased rollout and limited experiments across OEMs and adjacent workflows.
-- **Ask:** Approve 10 person-days (€8,000 effort equivalent) for discovery; reserve up to 30 further person-days (€24,000) conditional on the gate. No committed headcount or external OPEX funding assumed.
-- [Roadmap, evaluation and board pitch](06-the-pitch/roadmap.md).
+- **Horizon 1 (Now):** Weeks 1–4. Establish evidence, compare native/rules/hybrid, read-only feasibility and approved data, cost model, initial evaluation, governance and ownership. Week 4 stop/buy/validate gate.
+- **Horizon 2 (Next):** Weeks 5–12. Shadow pilot, full cost and effort, calibrated quality, independent holdout, correction-reuse experiment, fallback and release gates. Week 12 scale/narrow/buy/pivot/stop decision.
+- **Horizon 3 (Bet):** Months 3–6. Conditional expansion to additional OEMs/sources, test OEM report reconciliation reuse, explore operational analytics; no broad platform or external product approval.
+- **Board Narrative:** Grow operational capacity, not repetitive work. Start with a bounded workflow and earn investment in reusable knowledge only through incremental value.
+- **Ask:** Approve 10 person-days (€8,000 synthetic) for discovery within proposed 40-day / €32,000 12-week validation cap. Conditional 30 days (€24,000) only after H1 gate. Re-estimate external costs and scope; no rollout or hiring commitment. Owner/resource allocation proposed.
+- **Key Strategic Change:** From a single AI feature to a reusable outcome-led knowledge workflow, now benchmarked against stronger rules-only control and public alternatives. Do not fund custom implementation until coverage and ramp-aware economics pass. Provisional design assessment V2 2.75, V3 3.375, V4 4.125/5; conservative evidence-weighted V4 3.625/5. Not official scores. [Evaluation and evidence register](06-the-pitch/evaluation-v4.md).
 
-## Evidence and versioning
-All estimates are provisional; portfolio and internal cost figures are synthetic scenario assumptions, not measured results. Update the component files first and reassemble README monthly. This manually consolidated draft has not been run through the Product School parser. Replace placeholders only with disclosure-approved evidence and an approved hosted prototype URL before submission.
+[Roadmap and evaluation record](06-the-pitch/roadmap.md) · [Board presentation](final-presentation.html)
 
-## Final presentation
-[Board pitch (HTML)](final-presentation.html) — standalone presentation based on the board pitch in the roadmap. Open locally or submit as a file, subject to company disclosure approval. This deck was created independently, not exported from the course Pitch Builder.
+## Remaining submission gaps
+A shareable hosted URL, actual user/peer validation, real vendor benchmark and quotes, verified operating metrics and official course access are pending. Named public competitor examples are unrelated to any disclosed supplier relationship. The Product School parser previously misread numeric fields; use this reviewed README rather than overwriting it with incomplete automated output. All six modules and presentation are included as a draft for course submission after review.
